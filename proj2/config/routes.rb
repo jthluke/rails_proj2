@@ -1,5 +1,12 @@
 Rails.application.routes.draw do
   devise_for :users
+  #resources :Department, only [:show]
+  #resources :Course, only [:show]
+  #resources :Topic, only [:show, :edit, :update, :create, :destroy]
+  #resources :Post, only [:show, :edit, :update, :create, :destroy]
+  #resources :Tag, only [:show]
+  #resources :User, only [:show]
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
